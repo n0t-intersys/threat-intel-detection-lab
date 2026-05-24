@@ -1,0 +1,17 @@
+# Sample IOCs for testing ioc_enricher.py
+# Format: one IOC per line (IP, domain, MD5, SHA1, SHA256)
+# Lines starting with # are ignored
+
+# Suspicious IPs
+203.0.113.50
+198.51.100.77
+192.0.2.100
+
+# Suspicious domains
+malware-c2.example.xyz
+phishing-login.xyz
+
+# Sample file hashes (fictional)
+44d88612fea8a8f36de82e1278abb02f
+da39a3ee5e6b4b0d3255bfef95601890afd80709
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

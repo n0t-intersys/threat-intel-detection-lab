@@ -1,0 +1,45 @@
+# Observed TTPs from threat hunt / incident investigation
+# Format: one TTP ID per line, # = comment
+
+# Initial Access
+T1566.001
+T1078
+
+# Execution
+T1059.001
+T1059.003
+
+# Persistence
+T1547.001
+T1053
+
+# Defense Evasion
+T1027
+T1036
+T1562
+
+# Credential Access
+T1003.001
+T1110
+
+# Discovery
+T1082
+T1083
+T1046
+T1087
+
+# Lateral Movement
+T1021.001
+T1021.002
+
+# Collection
+T1005
+T1074
+
+# C2
+T1071
+T1572
+
+# Impact
+T1486
+T1490

@@ -1,0 +1,30 @@
+From: "IT Security Team" <it-support@micros0ft-verify.xyz>
+To: victim@company.com
+Subject: URGENT: Your Microsoft Account Will Be Suspended in 24 Hours
+Date: Wed, 15 Jan 2025 02:15:33 +0000
+Message-ID: <20250115021533.1234@micros0ft-verify.xyz>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Reply-To: collect@phishing-harvest.top
+Authentication-Results: mx.company.com;
+    spf=fail (sender IP is 198.51.100.77; expected authorized sender);
+    dkim=fail (signature verification failed);
+    dmarc=fail (p=reject; dis=quarantine)
+Received: from mail.suspicious-relay.xyz (198.51.100.77) by mx.company.com with SMTP
+Received: from phishing-server.xyz (203.0.113.50) by mail.suspicious-relay.xyz
+X-Mailer: PhishKit v3.2
+
+<html>
+<body>
+<p>Dear Microsoft Account User,</p>
+<p>We have detected unusual activity on your account. To verify your account and avoid suspension, you must confirm your identity immediately.</p>
+<p><strong>URGENT ACTION REQUIRED: Your account will be suspended in 24 hours.</strong></p>
+<p>Please click the link below to verify your account now:</p>
+<p><a href="http://198.51.100.77/microsoft/login?redirect=harvest&track=victim%40company.com">Verify My Microsoft Account</a></p>
+<p>Alternatively, visit: http://micros0ft-verify.xyz/account/confirm</p>
+<p>If you do not verify within 24 hours, your account and all associated data will be permanently deleted.</p>
+<p>Microsoft Security Team<br>
+One Microsoft Way<br>
+Redmond, WA 98052</p>
+</body>
+</html>
