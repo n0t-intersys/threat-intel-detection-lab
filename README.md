@@ -1,19 +1,11 @@
-# threat-intel-detection-lab
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  Threat Intelligence & Detection Engineering Lab                        │
-│  IOC Enrichment · SIGMA Rules · MITRE ATT&CK · Log Analysis            │
-└────────────────────────────────────────────────────────────────────────┘
-```
+# Threat Intelligence & Detection Lab
 
 [![CI](https://github.com/n0t-intersys/threat-intel-detection-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/n0t-intersys/threat-intel-detection-lab/actions)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)](https://attack.mitre.org)
 
-A toolkit for threat intelligence analysis, detection rule authoring, and log-based
-anomaly detection. Designed for security analysts, detection engineers, and blue team practitioners.
+IOC enrichment via AbuseIPDB and VirusTotal, SIGMA rule authoring with a built-in wizard, MITRE ATT&CK technique mapping, statistical log anomaly detection, and a phishing header analyzer. Most of these came out of real blue team work — the phishing analyzer in particular started as a quick script and grew from there.
 
 ---
 
